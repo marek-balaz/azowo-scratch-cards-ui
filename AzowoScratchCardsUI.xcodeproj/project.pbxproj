@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC309A692A6F308B00E402AE /* AzowoScratchCardsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */; };
+		BC309A6B2A6F308B00E402AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A6A2A6F308B00E402AE /* ContentView.swift */; };
+		BC309A6D2A6F308B00E402AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A6C2A6F308B00E402AE /* Assets.xcassets */; };
+		BC309A702A6F308B00E402AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A6F2A6F308B00E402AE /* Preview Assets.xcassets */; };
+		BC309A7A2A6F308C00E402AE /* AzowoScratchCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */; };
+		BC309A842A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A832A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift */; };
+		BC309A862A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC309A762A6F308C00E402AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC309A5D2A6F308B00E402AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC309A642A6F308B00E402AE;
+			remoteInfo = AzowoScratchCardsUI;
+		};
+		BC309A802A6F308C00E402AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC309A5D2A6F308B00E402AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC309A642A6F308B00E402AE;
+			remoteInfo = AzowoScratchCardsUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC309A652A6F308B00E402AE /* AzowoScratchCardsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzowoScratchCardsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIApp.swift; sourceTree = "<group>"; };
+		BC309A6A2A6F308B00E402AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BC309A6C2A6F308B00E402AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC309A6F2A6F308B00E402AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BC309A752A6F308C00E402AE /* AzowoScratchCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUITests.swift; sourceTree = "<group>"; };
+		BC309A7F2A6F308C00E402AE /* AzowoScratchCardsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC309A832A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIUITests.swift; sourceTree = "<group>"; };
+		BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC309A622A6F308B00E402AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A722A6F308C00E402AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A7C2A6F308C00E402AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC309A5C2A6F308B00E402AE = {
+			isa = PBXGroup;
+			children = (
+				BC309A672A6F308B00E402AE /* AzowoScratchCardsUI */,
+				BC309A782A6F308C00E402AE /* AzowoScratchCardsUITests */,
+				BC309A822A6F308C00E402AE /* AzowoScratchCardsUIUITests */,
+				BC309A662A6F308B00E402AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC309A662A6F308B00E402AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A652A6F308B00E402AE /* AzowoScratchCardsUI.app */,
+				BC309A752A6F308C00E402AE /* AzowoScratchCardsUITests.xctest */,
+				BC309A7F2A6F308C00E402AE /* AzowoScratchCardsUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC309A672A6F308B00E402AE /* AzowoScratchCardsUI */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */,
+				BC309A6A2A6F308B00E402AE /* ContentView.swift */,
+				BC309A6C2A6F308B00E402AE /* Assets.xcassets */,
+				BC309A6E2A6F308B00E402AE /* Preview Content */,
+			);
+			path = AzowoScratchCardsUI;
+			sourceTree = "<group>";
+		};
+		BC309A6E2A6F308B00E402AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A6F2A6F308B00E402AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BC309A782A6F308C00E402AE /* AzowoScratchCardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */,
+			);
+			path = AzowoScratchCardsUITests;
+			sourceTree = "<group>";
+		};
+		BC309A822A6F308C00E402AE /* AzowoScratchCardsUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A832A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift */,
+				BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */,
+			);
+			path = AzowoScratchCardsUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC309A642A6F308B00E402AE /* AzowoScratchCardsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC309A892A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUI" */;
+			buildPhases = (
+				BC309A612A6F308B00E402AE /* Sources */,
+				BC309A622A6F308B00E402AE /* Frameworks */,
+				BC309A632A6F308B00E402AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AzowoScratchCardsUI;
+			productName = AzowoScratchCardsUI;
+			productReference = BC309A652A6F308B00E402AE /* AzowoScratchCardsUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC309A742A6F308C00E402AE /* AzowoScratchCardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC309A8C2A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUITests" */;
+			buildPhases = (
+				BC309A712A6F308C00E402AE /* Sources */,
+				BC309A722A6F308C00E402AE /* Frameworks */,
+				BC309A732A6F308C00E402AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC309A772A6F308C00E402AE /* PBXTargetDependency */,
+			);
+			name = AzowoScratchCardsUITests;
+			productName = AzowoScratchCardsUITests;
+			productReference = BC309A752A6F308C00E402AE /* AzowoScratchCardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC309A7E2A6F308C00E402AE /* AzowoScratchCardsUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC309A8F2A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUIUITests" */;
+			buildPhases = (
+				BC309A7B2A6F308C00E402AE /* Sources */,
+				BC309A7C2A6F308C00E402AE /* Frameworks */,
+				BC309A7D2A6F308C00E402AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC309A812A6F308C00E402AE /* PBXTargetDependency */,
+			);
+			name = AzowoScratchCardsUIUITests;
+			productName = AzowoScratchCardsUIUITests;
+			productReference = BC309A7F2A6F308C00E402AE /* AzowoScratchCardsUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC309A5D2A6F308B00E402AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BC309A642A6F308B00E402AE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BC309A742A6F308C00E402AE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BC309A642A6F308B00E402AE;
+					};
+					BC309A7E2A6F308C00E402AE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BC309A642A6F308B00E402AE;
+					};
+				};
+			};
+			buildConfigurationList = BC309A602A6F308B00E402AE /* Build configuration list for PBXProject "AzowoScratchCardsUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC309A5C2A6F308B00E402AE;
+			productRefGroup = BC309A662A6F308B00E402AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC309A642A6F308B00E402AE /* AzowoScratchCardsUI */,
+				BC309A742A6F308C00E402AE /* AzowoScratchCardsUITests */,
+				BC309A7E2A6F308C00E402AE /* AzowoScratchCardsUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC309A632A6F308B00E402AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC309A702A6F308B00E402AE /* Preview Assets.xcassets in Resources */,
+				BC309A6D2A6F308B00E402AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A732A6F308C00E402AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A7D2A6F308C00E402AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC309A612A6F308B00E402AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC309A6B2A6F308B00E402AE /* ContentView.swift in Sources */,
+				BC309A692A6F308B00E402AE /* AzowoScratchCardsUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A712A6F308C00E402AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC309A7A2A6F308C00E402AE /* AzowoScratchCardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC309A7B2A6F308C00E402AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC309A862A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift in Sources */,
+				BC309A842A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC309A772A6F308C00E402AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC309A642A6F308B00E402AE /* AzowoScratchCardsUI */;
+			targetProxy = BC309A762A6F308C00E402AE /* PBXContainerItemProxy */;
+		};
+		BC309A812A6F308C00E402AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC309A642A6F308B00E402AE /* AzowoScratchCardsUI */;
+			targetProxy = BC309A802A6F308C00E402AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC309A872A6F308C00E402AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC309A882A6F308C00E402AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC309A8A2A6F308C00E402AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzowoScratchCardsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC309A8B2A6F308C00E402AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AzowoScratchCardsUI/Preview Content\"";
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC309A8D2A6F308C00E402AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzowoScratchCardsUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AzowoScratchCardsUI";
+			};
+			name = Debug;
+		};
+		BC309A8E2A6F308C00E402AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzowoScratchCardsUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AzowoScratchCardsUI";
+			};
+			name = Release;
+		};
+		BC309A902A6F308C00E402AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzowoScratchCardsUI;
+			};
+			name = Debug;
+		};
+		BC309A912A6F308C00E402AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NBK597F2XX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AzowoScratchCardsUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC309A602A6F308B00E402AE /* Build configuration list for PBXProject "AzowoScratchCardsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC309A872A6F308C00E402AE /* Debug */,
+				BC309A882A6F308C00E402AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC309A892A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC309A8A2A6F308C00E402AE /* Debug */,
+				BC309A8B2A6F308C00E402AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC309A8C2A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC309A8D2A6F308C00E402AE /* Debug */,
+				BC309A8E2A6F308C00E402AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC309A8F2A6F308C00E402AE /* Build configuration list for PBXNativeTarget "AzowoScratchCardsUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC309A902A6F308C00E402AE /* Debug */,
+				BC309A912A6F308C00E402AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC309A5D2A6F308B00E402AE /* Project object */;
+}
