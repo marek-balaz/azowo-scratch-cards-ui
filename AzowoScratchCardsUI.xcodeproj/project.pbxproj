@@ -8,12 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		BC309A692A6F308B00E402AE /* AzowoScratchCardsUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */; };
-		BC309A6B2A6F308B00E402AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A6A2A6F308B00E402AE /* ContentView.swift */; };
-		BC309A6D2A6F308B00E402AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A6C2A6F308B00E402AE /* Assets.xcassets */; };
 		BC309A702A6F308B00E402AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A6F2A6F308B00E402AE /* Preview Assets.xcassets */; };
-		BC309A7A2A6F308C00E402AE /* AzowoScratchCardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */; };
 		BC309A842A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A832A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift */; };
 		BC309A862A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */; };
+		BC309A992A6F30DE00E402AE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC309A932A6F30DE00E402AE /* Localizable.strings */; };
+		BC309A9A2A6F30DE00E402AE /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC309A962A6F30DE00E402AE /* Kanit-Regular.ttf */; };
+		BC309A9B2A6F30DE00E402AE /* Kanit-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC309A972A6F30DE00E402AE /* Kanit-Bold.ttf */; };
+		BC309A9C2A6F30DE00E402AE /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC309A982A6F30DE00E402AE /* Kanit-Medium.ttf */; };
+		BC309AC92A6F30F200E402AE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A9E2A6F30F200E402AE /* Colors.xcassets */; };
+		BC309ACA2A6F30F200E402AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC309A9F2A6F30F200E402AE /* Assets.xcassets */; };
+		BC309ACB2A6F30F200E402AE /* Font+Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA02A6F30F200E402AE /* Font+Fonts.swift */; };
+		BC309ACC2A6F30F200E402AE /* Color+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA12A6F30F200E402AE /* Color+Colors.swift */; };
+		BC309ACD2A6F30F200E402AE /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA22A6F30F200E402AE /* Design.swift */; };
+		BC309ACE2A6F30F200E402AE /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA42A6F30F200E402AE /* Date+Format.swift */; };
+		BC309ACF2A6F30F200E402AE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA52A6F30F200E402AE /* Log.swift */; };
+		BC309AD02A6F30F200E402AE /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA62A6F30F200E402AE /* Const.swift */; };
+		BC309AD12A6F30F200E402AE /* ScratchCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA82A6F30F200E402AE /* ScratchCard.swift */; };
+		BC309AD22A6F30F200E402AE /* ActivationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AA92A6F30F200E402AE /* ActivationResponse.swift */; };
+		BC309AD32A6F30F200E402AE /* ScratchCardGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AAB2A6F30F200E402AE /* ScratchCardGeneratorService.swift */; };
+		BC309AD42A6F30F200E402AE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AAC2A6F30F200E402AE /* NetworkService.swift */; };
+		BC309AD52A6F30F200E402AE /* AzowoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AAE2A6F30F200E402AE /* AzowoAPI.swift */; };
+		BC309AD62A6F30F200E402AE /* ActivationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AAF2A6F30F200E402AE /* ActivationService.swift */; };
+		BC309AD72A6F30F200E402AE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB02A6F30F200E402AE /* HTTPMethod.swift */; };
+		BC309AD82A6F30F200E402AE /* ActivationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB32A6F30F200E402AE /* ActivationViewModel.swift */; };
+		BC309AD92A6F30F200E402AE /* ActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB42A6F30F200E402AE /* ActivationView.swift */; };
+		BC309ADA2A6F30F200E402AE /* RevelationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB62A6F30F200E402AE /* RevelationViewModel.swift */; };
+		BC309ADB2A6F30F200E402AE /* RevelationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB72A6F30F200E402AE /* RevelationView.swift */; };
+		BC309ADC2A6F30F200E402AE /* ScratchCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AB92A6F30F200E402AE /* ScratchCardViewModel.swift */; };
+		BC309ADD2A6F30F200E402AE /* ScratchCardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309ABA2A6F30F200E402AE /* ScratchCardsViewModel.swift */; };
+		BC309ADE2A6F30F200E402AE /* ScratchCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309ABB2A6F30F200E402AE /* ScratchCardsView.swift */; };
+		BC309ADF2A6F30F300E402AE /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309ABE2A6F30F200E402AE /* ToastView.swift */; };
+		BC309AE02A6F30F300E402AE /* ScratchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AC02A6F30F200E402AE /* ScratchCardView.swift */; };
+		BC309AE12A6F30F300E402AE /* ScratchCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AC22A6F30F200E402AE /* ScratchCodeView.swift */; };
+		BC309AE22A6F30F300E402AE /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AC42A6F30F200E402AE /* ProgressBarView.swift */; };
+		BC309AE32A6F30F300E402AE /* StandardButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AC62A6F30F200E402AE /* StandardButtonView.swift */; };
+		BC309AE42A6F30F300E402AE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AC82A6F30F200E402AE /* LoadingView.swift */; };
+		BC309AE62A6F313B00E402AE /* ActivationServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AE52A6F313B00E402AE /* ActivationServiceMock.swift */; };
+		BC309AEA2A6F314300E402AE /* ActivationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AE72A6F314300E402AE /* ActivationViewModelTests.swift */; };
+		BC309AEB2A6F314300E402AE /* RevelationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AE82A6F314300E402AE /* RevelationViewModelTests.swift */; };
+		BC309AEC2A6F314300E402AE /* ScratchCardViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC309AE92A6F314300E402AE /* ScratchCardViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +69,48 @@
 /* Begin PBXFileReference section */
 		BC309A652A6F308B00E402AE /* AzowoScratchCardsUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzowoScratchCardsUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIApp.swift; sourceTree = "<group>"; };
-		BC309A6A2A6F308B00E402AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BC309A6C2A6F308B00E402AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC309A6F2A6F308B00E402AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC309A752A6F308C00E402AE /* AzowoScratchCardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUITests.swift; sourceTree = "<group>"; };
 		BC309A7F2A6F308C00E402AE /* AzowoScratchCardsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzowoScratchCardsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC309A832A6F308C00E402AE /* AzowoScratchCardsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIUITests.swift; sourceTree = "<group>"; };
 		BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzowoScratchCardsUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BC309A942A6F30DE00E402AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BC309A962A6F30DE00E402AE /* Kanit-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Regular.ttf"; sourceTree = "<group>"; };
+		BC309A972A6F30DE00E402AE /* Kanit-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Bold.ttf"; sourceTree = "<group>"; };
+		BC309A982A6F30DE00E402AE /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
+		BC309A9E2A6F30F200E402AE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BC309A9F2A6F30F200E402AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC309AA02A6F30F200E402AE /* Font+Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Font+Fonts.swift"; sourceTree = "<group>"; };
+		BC309AA12A6F30F200E402AE /* Color+Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Colors.swift"; sourceTree = "<group>"; };
+		BC309AA22A6F30F200E402AE /* Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		BC309AA42A6F30F200E402AE /* Date+Format.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		BC309AA52A6F30F200E402AE /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		BC309AA62A6F30F200E402AE /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		BC309AA82A6F30F200E402AE /* ScratchCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCard.swift; sourceTree = "<group>"; };
+		BC309AA92A6F30F200E402AE /* ActivationResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationResponse.swift; sourceTree = "<group>"; };
+		BC309AAB2A6F30F200E402AE /* ScratchCardGeneratorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardGeneratorService.swift; sourceTree = "<group>"; };
+		BC309AAC2A6F30F200E402AE /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BC309AAE2A6F30F200E402AE /* AzowoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzowoAPI.swift; sourceTree = "<group>"; };
+		BC309AAF2A6F30F200E402AE /* ActivationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationService.swift; sourceTree = "<group>"; };
+		BC309AB02A6F30F200E402AE /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		BC309AB32A6F30F200E402AE /* ActivationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationViewModel.swift; sourceTree = "<group>"; };
+		BC309AB42A6F30F200E402AE /* ActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationView.swift; sourceTree = "<group>"; };
+		BC309AB62A6F30F200E402AE /* RevelationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationViewModel.swift; sourceTree = "<group>"; };
+		BC309AB72A6F30F200E402AE /* RevelationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationView.swift; sourceTree = "<group>"; };
+		BC309AB92A6F30F200E402AE /* ScratchCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardViewModel.swift; sourceTree = "<group>"; };
+		BC309ABA2A6F30F200E402AE /* ScratchCardsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsViewModel.swift; sourceTree = "<group>"; };
+		BC309ABB2A6F30F200E402AE /* ScratchCardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardsView.swift; sourceTree = "<group>"; };
+		BC309ABE2A6F30F200E402AE /* ToastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		BC309AC02A6F30F200E402AE /* ScratchCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardView.swift; sourceTree = "<group>"; };
+		BC309AC22A6F30F200E402AE /* ScratchCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCodeView.swift; sourceTree = "<group>"; };
+		BC309AC42A6F30F200E402AE /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		BC309AC62A6F30F200E402AE /* StandardButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardButtonView.swift; sourceTree = "<group>"; };
+		BC309AC82A6F30F200E402AE /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		BC309AE52A6F313B00E402AE /* ActivationServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationServiceMock.swift; sourceTree = "<group>"; };
+		BC309AE72A6F314300E402AE /* ActivationViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationViewModelTests.swift; sourceTree = "<group>"; };
+		BC309AE82A6F314300E402AE /* RevelationViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevelationViewModelTests.swift; sourceTree = "<group>"; };
+		BC309AE92A6F314300E402AE /* ScratchCardViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchCardViewModelTests.swift; sourceTree = "<group>"; };
+		BC309AED2A6F321500E402AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +161,17 @@
 		BC309A672A6F308B00E402AE /* AzowoScratchCardsUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC309AA32A6F30F200E402AE /* Utilities */,
+				BC309AAA2A6F30F200E402AE /* Services */,
+				BC309AA72A6F30F200E402AE /* Models */,
+				BC309ABC2A6F30F200E402AE /* Components */,
+				BC309AB12A6F30F200E402AE /* Modules */,
+				BC309A9D2A6F30F200E402AE /* Design */,
 				BC309A682A6F308B00E402AE /* AzowoScratchCardsUIApp.swift */,
-				BC309A6A2A6F308B00E402AE /* ContentView.swift */,
-				BC309A6C2A6F308B00E402AE /* Assets.xcassets */,
+				BC309AED2A6F321500E402AE /* Info.plist */,
 				BC309A6E2A6F308B00E402AE /* Preview Content */,
+				BC309A952A6F30DE00E402AE /* Fonts */,
+				BC309A922A6F30DE00E402AE /* Localization */,
 			);
 			path = AzowoScratchCardsUI;
 			sourceTree = "<group>";
@@ -113,7 +187,10 @@
 		BC309A782A6F308C00E402AE /* AzowoScratchCardsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BC309A792A6F308C00E402AE /* AzowoScratchCardsUITests.swift */,
+				BC309AE52A6F313B00E402AE /* ActivationServiceMock.swift */,
+				BC309AE72A6F314300E402AE /* ActivationViewModelTests.swift */,
+				BC309AE82A6F314300E402AE /* RevelationViewModelTests.swift */,
+				BC309AE92A6F314300E402AE /* ScratchCardViewModelTests.swift */,
 			);
 			path = AzowoScratchCardsUITests;
 			sourceTree = "<group>";
@@ -125,6 +202,174 @@
 				BC309A852A6F308C00E402AE /* AzowoScratchCardsUIUITestsLaunchTests.swift */,
 			);
 			path = AzowoScratchCardsUIUITests;
+			sourceTree = "<group>";
+		};
+		BC309A922A6F30DE00E402AE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A932A6F30DE00E402AE /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		BC309A952A6F30DE00E402AE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BC309A962A6F30DE00E402AE /* Kanit-Regular.ttf */,
+				BC309A972A6F30DE00E402AE /* Kanit-Bold.ttf */,
+				BC309A982A6F30DE00E402AE /* Kanit-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BC309A9D2A6F30F200E402AE /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AA22A6F30F200E402AE /* Design.swift */,
+				BC309AA12A6F30F200E402AE /* Color+Colors.swift */,
+				BC309AA02A6F30F200E402AE /* Font+Fonts.swift */,
+				BC309A9F2A6F30F200E402AE /* Assets.xcassets */,
+				BC309A9E2A6F30F200E402AE /* Colors.xcassets */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BC309AA32A6F30F200E402AE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AB02A6F30F200E402AE /* HTTPMethod.swift */,
+				BC309AA42A6F30F200E402AE /* Date+Format.swift */,
+				BC309AA52A6F30F200E402AE /* Log.swift */,
+				BC309AA62A6F30F200E402AE /* Const.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BC309AA72A6F30F200E402AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AA82A6F30F200E402AE /* ScratchCard.swift */,
+				BC309AA92A6F30F200E402AE /* ActivationResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BC309AAA2A6F30F200E402AE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AAB2A6F30F200E402AE /* ScratchCardGeneratorService.swift */,
+				BC309AAC2A6F30F200E402AE /* NetworkService.swift */,
+				BC309AAD2A6F30F200E402AE /* Azowo API */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BC309AAD2A6F30F200E402AE /* Azowo API */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AAE2A6F30F200E402AE /* AzowoAPI.swift */,
+				BC309AAF2A6F30F200E402AE /* ActivationService.swift */,
+			);
+			path = "Azowo API";
+			sourceTree = "<group>";
+		};
+		BC309AB12A6F30F200E402AE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AB82A6F30F200E402AE /* Scratch Cards */,
+				BC309AB52A6F30F200E402AE /* Revelation */,
+				BC309AB22A6F30F200E402AE /* Activation */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BC309AB22A6F30F200E402AE /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AB32A6F30F200E402AE /* ActivationViewModel.swift */,
+				BC309AB42A6F30F200E402AE /* ActivationView.swift */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
+		BC309AB52A6F30F200E402AE /* Revelation */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AB62A6F30F200E402AE /* RevelationViewModel.swift */,
+				BC309AB72A6F30F200E402AE /* RevelationView.swift */,
+			);
+			path = Revelation;
+			sourceTree = "<group>";
+		};
+		BC309AB82A6F30F200E402AE /* Scratch Cards */ = {
+			isa = PBXGroup;
+			children = (
+				BC309ABA2A6F30F200E402AE /* ScratchCardsViewModel.swift */,
+				BC309AB92A6F30F200E402AE /* ScratchCardViewModel.swift */,
+				BC309ABB2A6F30F200E402AE /* ScratchCardsView.swift */,
+			);
+			path = "Scratch Cards";
+			sourceTree = "<group>";
+		};
+		BC309ABC2A6F30F200E402AE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC309ABD2A6F30F200E402AE /* Toast */,
+				BC309AC72A6F30F200E402AE /* Loading View */,
+				BC309AC32A6F30F200E402AE /* Progress Bar */,
+				BC309ABF2A6F30F200E402AE /* Scratch Card */,
+				BC309AC12A6F30F200E402AE /* Scratch Code */,
+				BC309AC52A6F30F200E402AE /* Standard Button View */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC309ABD2A6F30F200E402AE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				BC309ABE2A6F30F200E402AE /* ToastView.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		BC309ABF2A6F30F200E402AE /* Scratch Card */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AC02A6F30F200E402AE /* ScratchCardView.swift */,
+			);
+			path = "Scratch Card";
+			sourceTree = "<group>";
+		};
+		BC309AC12A6F30F200E402AE /* Scratch Code */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AC22A6F30F200E402AE /* ScratchCodeView.swift */,
+			);
+			path = "Scratch Code";
+			sourceTree = "<group>";
+		};
+		BC309AC32A6F30F200E402AE /* Progress Bar */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AC42A6F30F200E402AE /* ProgressBarView.swift */,
+			);
+			path = "Progress Bar";
+			sourceTree = "<group>";
+		};
+		BC309AC52A6F30F200E402AE /* Standard Button View */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AC62A6F30F200E402AE /* StandardButtonView.swift */,
+			);
+			path = "Standard Button View";
+			sourceTree = "<group>";
+		};
+		BC309AC72A6F30F200E402AE /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				BC309AC82A6F30F200E402AE /* LoadingView.swift */,
+			);
+			path = "Loading View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +443,7 @@
 					};
 					BC309A742A6F308C00E402AE = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 						TestTargetID = BC309A642A6F308B00E402AE;
 					};
 					BC309A7E2A6F308C00E402AE = {
@@ -232,7 +478,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC309A702A6F308B00E402AE /* Preview Assets.xcassets in Resources */,
-				BC309A6D2A6F308B00E402AE /* Assets.xcassets in Resources */,
+				BC309A9C2A6F30DE00E402AE /* Kanit-Medium.ttf in Resources */,
+				BC309A992A6F30DE00E402AE /* Localizable.strings in Resources */,
+				BC309A9B2A6F30DE00E402AE /* Kanit-Bold.ttf in Resources */,
+				BC309A9A2A6F30DE00E402AE /* Kanit-Regular.ttf in Resources */,
+				BC309ACA2A6F30F200E402AE /* Assets.xcassets in Resources */,
+				BC309AC92A6F30F200E402AE /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +508,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC309A6B2A6F308B00E402AE /* ContentView.swift in Sources */,
+				BC309AE02A6F30F300E402AE /* ScratchCardView.swift in Sources */,
+				BC309ADE2A6F30F200E402AE /* ScratchCardsView.swift in Sources */,
+				BC309AD42A6F30F200E402AE /* NetworkService.swift in Sources */,
+				BC309ACC2A6F30F200E402AE /* Color+Colors.swift in Sources */,
+				BC309AD72A6F30F200E402AE /* HTTPMethod.swift in Sources */,
+				BC309ADD2A6F30F200E402AE /* ScratchCardsViewModel.swift in Sources */,
+				BC309ACE2A6F30F200E402AE /* Date+Format.swift in Sources */,
+				BC309ADF2A6F30F300E402AE /* ToastView.swift in Sources */,
+				BC309AE42A6F30F300E402AE /* LoadingView.swift in Sources */,
+				BC309AD22A6F30F200E402AE /* ActivationResponse.swift in Sources */,
+				BC309ADC2A6F30F200E402AE /* ScratchCardViewModel.swift in Sources */,
+				BC309ACF2A6F30F200E402AE /* Log.swift in Sources */,
+				BC309ACD2A6F30F200E402AE /* Design.swift in Sources */,
+				BC309ADA2A6F30F200E402AE /* RevelationViewModel.swift in Sources */,
+				BC309AD62A6F30F200E402AE /* ActivationService.swift in Sources */,
+				BC309AE22A6F30F300E402AE /* ProgressBarView.swift in Sources */,
+				BC309AE12A6F30F300E402AE /* ScratchCodeView.swift in Sources */,
 				BC309A692A6F308B00E402AE /* AzowoScratchCardsUIApp.swift in Sources */,
+				BC309AD52A6F30F200E402AE /* AzowoAPI.swift in Sources */,
+				BC309AD82A6F30F200E402AE /* ActivationViewModel.swift in Sources */,
+				BC309ACB2A6F30F200E402AE /* Font+Fonts.swift in Sources */,
+				BC309AD92A6F30F200E402AE /* ActivationView.swift in Sources */,
+				BC309AD12A6F30F200E402AE /* ScratchCard.swift in Sources */,
+				BC309AD32A6F30F200E402AE /* ScratchCardGeneratorService.swift in Sources */,
+				BC309AD02A6F30F200E402AE /* Const.swift in Sources */,
+				BC309ADB2A6F30F200E402AE /* RevelationView.swift in Sources */,
+				BC309AE32A6F30F300E402AE /* StandardButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +542,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC309A7A2A6F308C00E402AE /* AzowoScratchCardsUITests.swift in Sources */,
+				BC309AEB2A6F314300E402AE /* RevelationViewModelTests.swift in Sources */,
+				BC309AEA2A6F314300E402AE /* ActivationViewModelTests.swift in Sources */,
+				BC309AE62A6F313B00E402AE /* ActivationServiceMock.swift in Sources */,
+				BC309AEC2A6F314300E402AE /* ScratchCardViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +572,17 @@
 			targetProxy = BC309A802A6F308C00E402AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC309A932A6F30DE00E402AE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC309A942A6F30DE00E402AE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BC309A872A6F308C00E402AE /* Debug */ = {
@@ -345,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -415,22 +705,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AzowoScratchCardsUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzowoScratchCardsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azowo Scratch UI";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUI;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balaz.azowo-scratch-cards-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -444,22 +739,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"AzowoScratchCardsUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AzowoScratchCardsUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Azowo Scratch UI";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUI;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.balaz.azowo-scratch-cards-ui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -472,15 +772,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AzowoScratchCardsUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AzowoScratchCardsUI";
@@ -492,11 +799,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NBK597F2XX;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.balaz.AzowoScratchCardsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
